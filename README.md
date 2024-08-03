@@ -1,8 +1,8 @@
 # [CII] vs FIR Intensity correlation for the FEEDBACK sources #
 
 Perform a greybody fit of Herschel PACS, SPIRE and other continuum lines in order to calculate the FIR Intensity from 40-500 microns. 
-Writes a .csv file with the intensities which can be used in the plotting script, also creates dust temperature, tau and FIR .fits maps based on the plots
-Some switches are included to allow for cropping of the input files and plotting outputs. The CII Intensity is propagated cause the output is used for CII vs FIR Intensity relations for the FEEDBACK (Schneider et al., 2020) project.
+Writes a .csv file with the intensities which can be used in the plotting script, also creates dust temperature, tau and FIR .fits maps based on the fitting.
+Some switches are included to allow for cropping of the input files and plotting outputs. The CII Intensity is propagated, because the output is used for CII vs FIR Intensity relations for the FEEDBACK (Schneider et al., 2020) project.
 
 The modified blackbody function is the one from Pabst et al. 2021 (https://ui.adsabs.harvard.edu/abs/2021A%26A...651A.111P/abstract) and can be expressed mathematically as follows:
 
