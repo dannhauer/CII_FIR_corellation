@@ -12,11 +12,11 @@ The modified blackbody function is the one from Pabst et al. 2021 (https://ui.ad
 $B_\lambda = \frac{2 h c^2}{\lambda^5} \cdot \frac{1}{e^{\frac{h c}{k_B T_{\text{dust}} \lambda}} - 1}$
 
    Where:
-   - \( h \) is the Planck constant,
-   - \( c \) is the speed of light,
-   - \( \lambda \) is the wavelength in meters,
-   - \( k_B \) is the Boltzmann constant,
-   - \( T_{\text{dust}} \) is the dust temperature in Kelvin.
+   - $h$ is the Planck constant,
+   - $c$) is the speed of light,
+   - $\lambda$ is the wavelength in meters,
+   - $k_B$ is the Boltzmann constant,
+   - $T_{\text{dust}}$ is the dust temperature in Kelvin.
 
 4. *Modified Blackbody Intensity:*
    
@@ -24,8 +24,8 @@ $I_\lambda = B_\lambda \left(1 - e^{-\tau_{160} \left(\frac{160}{\lambda}\right)
 
    Where:
    - $\tau_{160}$ is the optical depth at 160 microns,
-   - $\beta $ is the emissivity index (default is `beta_fixed`),
-   - $ \lambda $ is the wavelength in microns, can select the wavelength used in the fitting as a user input.
+   - $\beta$ is the emissivity index (default is `beta_fixed`),
+   - $\lambda$ is the wavelength in microns, can select the wavelength used in the fitting as a user input.
 
 in case of questions contact Simon Dannhauer via dannhauer@ph1.uni-koeln.de
 
